@@ -1,0 +1,66 @@
+.body{
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+.container{
+ margin-top: 0;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ align-items: center;
+}
+.header{
+  color: white;
+  font-size: 2rem;
+  margin: 2rem;
+}
+input{
+  padding: 10px;
+  width: 300px;
+}
+.add{
+  display: flex;
+
+}
+.Add-btn{
+  background-color: rgb(193, 161, 244);
+  margin-left: 10px;
+}
+.Instruction{
+  color: white;
+}
+.list-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+.showdata{
+  color: white;
+  display: flex;
+  
+  flex-direction: row;
+  margin-left: 10px;
+}
+.show{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-top: 10px; */
+}
+.display{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 20px; */
+}
+button{
+  cursor: pointer;
+}
+.listData{
+  font-size: 25px;
+}
+input{
+  font-size: 20px;
+}
